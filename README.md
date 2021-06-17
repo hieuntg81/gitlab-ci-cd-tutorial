@@ -152,8 +152,8 @@ deploy:
   image: ictu/sshpass:latest
   stage: deploy
   script:
-    - 'sshpass -p "$PASSWORD" scp -o StrictHostKeyChecking=no $BUILD_PATH/$PACKAGE_NAME.jar root@172.16.10.100:"/tmp/"'
-    - 'sshpass -p "$PASSWORD" ssh -o StrictHostKeyChecking=no -tt root@172.16.10.100 "bash -s" < ./deploy/deploy.sh'
+    - 'sshpass -p "$PASSWORD" scp -o StrictHostKeyChecking=no $BUILD_PATH/$PACKAGE_NAME.jar root@xx.xx.xx.xx:"/tmp/"'
+    - 'sshpass -p "$PASSWORD" ssh -o StrictHostKeyChecking=no -tt root@xx.xx.xx.xx "bash -s" < ./deploy/deploy.sh'
   tags:
       - demo-runner
 ```
