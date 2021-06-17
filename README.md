@@ -70,7 +70,7 @@ gitlab-runner register
 
 <ins>Enter the GitLab instance URL</ins>: Địa chỉ IP của server gitlab (Ở đây sẽ dùng luôn cây nhà lá vườn [git] )
 
-<ins>Enter the registration token</ins>: Mỗi một project (hoặc group project) sẽ có token riêng. Vào trang chính của project trên gitlab server (http://10.22.7.168/project-name) -> Settings -> CI/CD -> Runners -> Expand -> Use the following registration token during setup
+<ins>Enter the registration token</ins>: Mỗi một project (hoặc group project) sẽ có token riêng. Vào trang chính của project trên gitlab server (http://gitlab.com/project-name) -> Settings -> CI/CD -> Runners -> Expand -> Use the following registration token during setup
 
 <ins>Enter a description for the runner</ins>: Mô tả chung chung (Ví dụ: runner for demo)
 
@@ -217,7 +217,7 @@ artifacts:
 
 <b>Việc sử dụng scp và deploy bằng file sh (trong ví dụ này) là một chiến lược đơn giản nhưng không phù hợp để áp dụng nếu gitlab runner và server production là một</b>
 
-[git]: <http://10.212.17.18/>
+[git]: <https://gitlab.com/>
 [docker-compose-up-d]: docker-compose-up-d.png
 [docker-ps]: docker-ps.png
 [gitlab-runner-registry]: gitlab-runner-registry.png
