@@ -218,8 +218,8 @@ artifacts:
 <b>Việc sử dụng scp và deploy bằng file sh (trong ví dụ này) là một chiến lược đơn giản nhưng không phù hợp để áp dụng nếu gitlab runner và server production là một</b>
 
 [git]: <http://10.22.7.168/>
-[docker-compose-up-d]: images/docker-compose-up-d.png
-[docker-ps]: images/docker-ps.png
-[gitlab-runner-registry]: images/gitlab-runner-registry.png
-[stages]: images/stages.png
-[artifacts]: images/artifacts.png
+[docker-compose-up-d]: docker-compose-up-d.png
+[docker-ps]: docker-ps.png
+[gitlab-runner-registry]: gitlab-runner-registry.png
+[stages]: stages.png
+[artifacts]: artifacts.png
