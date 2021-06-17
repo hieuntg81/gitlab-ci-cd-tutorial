@@ -217,7 +217,7 @@ artifacts:
 
 <b>Việc sử dụng scp và deploy bằng file sh (trong ví dụ này) là một chiến lược đơn giản nhưng không phù hợp để áp dụng nếu gitlab runner và server production là một</b>
 
-[git]: <http://10.22.7.168/>
+[git]: <http://10.212.17.18/>
 [docker-compose-up-d]: docker-compose-up-d.png
 [docker-ps]: docker-ps.png
 [gitlab-runner-registry]: gitlab-runner-registry.png
